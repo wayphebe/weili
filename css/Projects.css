@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+a{
+    font-family: "Noto Sans";
+    color: #416f94;
+    text-decoration: none;
+    font-weight: 580;
+}
+.container{
+    font-family: "Noto Sans";
+    font-size: 24px;
+    color: rgba(75, 110, 97, 0.918);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 6fr 3fr;
+}
+.navigation{
+    /* background-color: #a5afa7; 
+    justify-content: center; */
+    margin: 92px 0px 0 5px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    /* border: 1px  solid rgba(255,255,255, 0.25); */
+    border-radius: 10px;
+    transition: 1s;
+ }
+ 
+ .navigation a:hover{
+     background:  rgba(65, 111,148,0.25);
+     box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+     transform: translateY(-3px) rotateY(50deg);
+     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+
+.projects{
+    margin: 80px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
+}
+.projects p{
+    color: white;
+}
+
+.p1{
+    grid-area: 1/1/4/2;
+    background-color: #88949e;
+    padding: 100 100 100 100;
+}
+.p2{
+    grid-area: 3/2/4/4;
+    background-color: #aac2b0;
+    padding: 100 100 100 100;
+}
+.p3{
+    grid-area: 1/2/2/3;
+    background-color: #9689a1;
+    padding: 100 100 100 100;
+}
+.p4{
+    grid-area: 1/3/2/4;
+    background-color: #6d7f91;
+    padding: 100 100 100 100;
+}
+.p5{
+    grid-area: 2/2/3/3;
+    background-color: #8f7d83;
+    padding: 100 100 100 100;
+}
+.p6{
+    grid-area: 2/3/3/4;
+    background-color: #7a6a74;
+    padding: 100 100 100 100;
+}
+   /* -------------------------------------------------------- */
+  a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 10%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    text-align:center;
+    font-size:11px;
+    z-index:999;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: "Noto Sans";
+    font-size: 14px;
+    color: rgba(75, 110, 97, 0.918);
+    margin: 10px auto 0px 50px;
+}
+.logo{
+    grid-area: 1/1/2/2;
+}
+.jump{
+    grid-area: 1/2/2/3;
+}

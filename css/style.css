@@ -1,0 +1,39 @@
+body{
+	color: #ffffff;
+	background-color: #5757FF;
+}
+.title{
+	text-align: center;
+}
+.container{
+	width: 95%;
+	border: 2px solid black;
+	margin:0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+}
+
+.container img{
+	width: 100%;
+}
+
+.item{
+	border: 2px solid black;
+}
+.filter{
+	height:auto;
+	overflow:hidden;
+	width: 480px;
+	list-style: none;
+	background:#5757FF;
+	margin: 15px auto 45px;
+	color: #ffffff;
+}
+.filter li{
+	padding: 15px 35px;
+	width: auto;
+	height: auto;
+	float: left;
+	cursor: pointer;
+}

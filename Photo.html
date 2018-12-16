@@ -1,0 +1,95 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/Photo.css" />
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css">
+
+    <script src="main.js"></script>
+</head>
+<body background="../images/bg.jpg" alt="grid">
+    <div class="header">
+            <div class="logo">
+                <h5>logo here</h5>
+            </div>
+            <div class="jump">
+                <a class="skip-main" href="#main"><p>jump to content</p>
+               
+                </a>  
+            </div> 
+        </div>
+    
+        <div class="container">
+                <div class="navigation">
+                    <!-- 这里复制粘贴 -->
+                    <ul>
+                            <li><a href="index.html">Home</a> </br></li>
+                            <li><a href="Projects.html">Projects</a></br></li>
+                            <li><a href="Photo.html">Photo Gallery</a></br></li>
+                            <li><a href="Graphic.html">Graphic Design</a></br></li>
+                            <li><a href="About.html">About</a></li>
+                            </ul>
+                </div>
+
+                <div class="photo">
+                    <div class="f">
+                            <ul class = "filter">
+                                <li data-filter="all">All</li>
+                                <li data-filter=".museum">Museum</li>
+                                <li data-filter=".metro">Metro</li>
+                                <li data-filter=".random">Random</li> 
+                            </ul>
+                    </div>
+                    <div class="img" id="main" >
+                    <div class="mix metro">
+                            <a href="./photos\1.JPG" data-lightbox="1" data-title="x">	 <img src="./photos\1.JPG" width= "280" height = "200" alt = nyc></a>
+                        </div>
+                        <div class="mix museum">
+                            <a href="./photos/2.JPG" data-lightbox="1" data-title="x">	<img src="./photos/2.JPG" width= "280" height = "200" alt = nyc></a>
+                        </div>
+                        <div class="mix metro">
+                            <a href="./photos/3.JPG" data-lightbox="1">	 <img src="./photos/3.JPG" width= "280" height = "200" alt = "nyc"></a>
+                        </div>
+                        <div class="mix  museum">
+                            <a href="./photos/4.JPG" data-lightbox="1">	<img src="./photos/4.JPG" width= "280" height = "200" alt = "nyc"></a>
+                        </div>
+                        <div class="mix museum">
+                            <a href="./photos/5.JPG" data-lightbox="1">	 <img src="./photos/5.JPG" width= "280" height = "200" alt = "nyc"></a>
+                        </div>
+                        <div class="mix museum">
+                            <a href="./photos/6.JPG" data-lightbox="1">	 <img src="./photos/6.JPG" width= "280" height = "200" alt = "nyc"></a>
+                        </div>
+                        <div class="mix random">
+                            <a href="./photos/7.JPG" data-lightbox="1">	 <img src="./photos/7.JPG" width= "280" height = "200" alt = "nyc"></a>
+                        </div>
+                        <div class="mix random">
+                            <a href="./photos/8.JPG" data-lightbox="1">	<img src="./photos/8.JPG" width= "280" height = "200" alt = "nyc"></a>
+                        </div>
+                        <div class="mix random">
+                        <a href="./photos/9.JPG" data-lightbox="1"><img src="./photos/9.JPG" width= "280" height = "200" alt = "nyc"></a>
+                        </div>
+                        </div>
+                </div>
+        </div>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>	
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+
+<script type="text/javascript" src="js/mixitup.min.js"></script>
+<script type="text/javascript">
+	var mixer = mixitup('.container');
+	var mixer = mixitip(img);
+	var mixer = mixitup(img, {
+    selectors: {
+        target: 'img'
+    },
+    animation: {
+        duration: 300
+    }
+});
+</script>
+</body>
+</html>
